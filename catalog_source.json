@@ -1,0 +1,87 @@
+[
+  {
+    "productId": "69dcdefb00273c8288c61853",
+    "category": "toy",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505460/marketplace/products/covers/pm3vrvsqcikso18ouwlq.jpg"
+  },
+  {
+    "productId": "69dce18500273c8288c618c6",
+    "category": "bags",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505464/marketplace/products/covers/pkjjao2xzm1aa9rnjuch.jpg"
+  },
+  {
+    "productId": "69dce2da00273c8288c618fa",
+    "category": "suits",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505467/marketplace/products/covers/dtg6bf1bgybo8zftfmj4.jpg"
+  },
+  {
+    "productId": "69dce4e600273c8288c6194f",
+    "category": "suits",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505469/marketplace/products/covers/zxgocd2x6a4mthl5a1f2.jpg"
+  },
+  {
+    "productId": "69dce5e400273c8288c61974",
+    "category": "sweater",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505474/marketplace/products/covers/vyv2monsmoh1m9qy4sow.jpg"
+  },
+  {
+    "productId": "69dce77400273c8288c619eb",
+    "category": "sweater",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505475/marketplace/products/covers/zfyxfzqzpzm2xcvs98tv.png"
+  },
+  {
+    "productId": "69dce82000273c8288c61a22",
+    "category": "sweater",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505479/marketplace/products/covers/rckxqcx5q1ytu5ayyka4.jpg"
+  },
+  {
+    "productId": "69dcea7cbb1ef4a5cb443596",
+    "category": "sweater",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505480/marketplace/products/covers/tzy8ctj5nwm1ovbbjyn5.png"
+  },
+  {
+    "productId": "69dceae3bb1ef4a5cb4435cc",
+    "category": "scarf",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505486/marketplace/products/covers/adowtgf9vzhxq2thrgdz.png"
+  },
+  {
+    "productId": "69dceb1abb1ef4a5cb443602",
+    "category": "gloves",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505490/marketplace/products/covers/c5ft9xzfs0idvfxewq0t.jpg"
+  },
+  {
+    "productId": "69dcecbabb1ef4a5cb44361e",
+    "category": "sweater",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505491/marketplace/products/covers/zdwbftxjgmc4e3ucmwdj.png"
+  },
+  {
+    "productId": "69dcf50bbb1ef4a5cb44367c",
+    "category": "socks",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505496/marketplace/products/covers/x9vmbgapsdteiiukecks.jpg"
+  },
+  {
+    "productId": "69dcf584bb1ef4a5cb443698",
+    "category": "characters",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505497/marketplace/products/covers/l6ohtpisiwtn4ylgnem6.jpg"
+  },
+  {
+    "productId": "69dcf8c869cbd3d1626714f3",
+    "category": "characters",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505498/marketplace/products/covers/ft9bytg3biy1mruc3n07.jpg"
+  },
+  {
+    "productId": "69dcf92569cbd3d16267151b",
+    "category": "toy",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505500/marketplace/products/covers/i1r3tfs6qirivnou9ip9.jpg"
+  },
+  {
+    "productId": "69dcf97869cbd3d16267153d",
+    "category": "waistcoats",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505502/marketplace/products/covers/ammznalcnp3pf3enhruc.jpg"
+  },
+  {
+    "productId": "69dcf9a369cbd3d16267155f",
+    "category": "toy",
+    "imageUrl": "https://res.cloudinary.com/dl3r0vkqe/image/upload/v1776505503/marketplace/products/covers/aosy2bvbvf69iuc8a1gn.jpg"
+  }
+]
