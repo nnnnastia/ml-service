@@ -7,6 +7,8 @@ from PIL import Image
 import numpy as np
 import json
 import io
+import os
+import traceback
 
 IMG_SIZE = 224
 
@@ -20,6 +22,12 @@ UA_NAMES = {
     "toy": "Іграшка"
 }
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+CLASSIFIER_PATH = os.path.join(BASE_DIR, "final_classifier.keras")
+EMBEDDING_PATH = os.path.join(BASE_DIR, "final_embedding_model.keras")
+EMBEDDINGS_JSON_PATH = os.path.join(BASE_DIR, "catalog_embeddings.json")
+
 classifier_model = None
 embedding_model = None
 catalog_embeddings = None
@@ -29,14 +37,34 @@ catalog_embeddings = None
 async def lifespan(app: FastAPI):
     global classifier_model, embedding_model, catalog_embeddings
 
-    print("Loading ML models...")
-    classifier_model = load_model("final_classifier.keras", compile=False, safe_mode=False)
-    embedding_model = load_model("final_embedding_model.keras", compile=False, safe_mode=False)
+    try:
+        print("BASE_DIR:", BASE_DIR)
+        print("FILES IN DIR:", os.listdir(BASE_DIR))
 
-    with open("catalog_embeddings.json", "r", encoding="utf-8") as f:
-        catalog_embeddings = json.load(f)
+        print("Classifier exists:", os.path.exists(CLASSIFIER_PATH), CLASSIFIER_PATH)
+        print("Embedding exists:", os.path.exists(EMBEDDING_PATH), EMBEDDING_PATH)
+        print("Embeddings json exists:", os.path.exists(EMBEDDINGS_JSON_PATH), EMBEDDINGS_JSON_PATH)
 
-    print("ML models loaded successfully")
+        print("Loading classifier model...")
+        classifier_model = load_model(CLASSIFIER_PATH, compile=False, safe_mode=False)
+        print("Classifier loaded")
+
+        print("Loading embedding model...")
+        embedding_model = load_model(EMBEDDING_PATH, compile=False, safe_mode=False)
+        print("Embedding model loaded")
+
+        print("Loading catalog embeddings json...")
+        with open(EMBEDDINGS_JSON_PATH, "r", encoding="utf-8") as f:
+            catalog_embeddings = json.load(f)
+        print("Catalog embeddings loaded")
+
+        print("ML models loaded successfully")
+
+    except Exception as e:
+        print("STARTUP ERROR:", str(e))
+        traceback.print_exc()
+        raise e
+
     yield
 
 
